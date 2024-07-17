@@ -1,0 +1,639 @@
+.container-result-archive {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  //height: calc(100vh - 230px);
+  //height: calc(100vh - 280px);
+  height: auto;
+}
+
+.pagination {
+  //margin-top: 50px !important;
+  margin: 0 !important;
+  margin-right: 0.5% !important;
+
+  height: 5vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-result-archive {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f1f1f1;
+
+  tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  td {
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+
+    padding: 0px 5px !important;
+  }
+
+  tr {
+    height: auto !important;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #656565;
+    text-transform: capitalize;
+    background-color: #fbfbfb;
+  }
+
+  td {
+    border: 1px solid #e2e2e2;
+    height: auto !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #656565;
+  }
+  tr:nth-child(odd) td {
+    background-color: #fff;
+  }
+  tr:nth-child(even) td {
+    background-color: #e3e5e7;
+  }
+}
+
+.table-filters {
+  svg {
+    color: #d2d2d2;
+  }
+}
+
+.header-table {
+  background-color: #00a8e8;
+  width: 100%;
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+  p {
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+}
+
+.button-view-data {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border-radius: 6px;
+  border: solid 1px #0e86d4;
+  background-color: #0e86d4;
+  padding: 6px 13px 8px 10px;
+}
+
+.button-view-machine {
+  padding: 7px 7.5px 9px 8px;
+  border-radius: 4px;
+  background-color: #055c9d;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.button-status-error {
+  padding: 2px 5px 4px;
+  border-radius: 6px;
+  background-color: #bc1515;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 35px;
+  border: none;
+  outline: none;
+}
+
+.button-header-table {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #187fb4;
+}
+
+.checkbox-table {
+  width: 15px;
+  height: 15px;
+}
+
+.menu-header-result-archive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*.input-search-tabela {
+  width: auto;
+  height: auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.input-search-tabela input {
+  width: 100%;
+  height: auto;
+}*/
+
+/* ESTILIZACAO COLUNAS 0 E 1 TAMBELA */
+.celula-amarela {
+  background-color: #fafacc !important;
+
+  font-weight: 900 !important;
+
+  color: #000000 !important;
+
+  text-align: center !important;
+}
+
+.celula-azul {
+  background-color: #c1ecfb !important;
+
+  font-weight: 900 !important;
+
+  color: #000000 !important;
+
+  text-align: center !important;
+}
+
+.input-escolha {
+  width: 160px !important;
+}
+
+/* CONFIGURACAO INPUT PESQUISA (SEARCH) */
+.input-search-tabela {
+  width: 100% !important;
+  height: auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.input-search-tabela input {
+  width: 100%;
+  height: auto;
+}
+
+.MuiFormControl-root {
+  width: 100%;
+  height: auto;
+}
+
+.MuiTextField-root {
+  width: 100%;
+  height: auto;
+}
+
+/* CONTROLE SELECT ESCOLHAS */
+/*.transparencia {
+  display: none;
+}*/
+
+.option-three-points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 !important;
+}
+
+/* DECORACAO BOTAO ABERTURA DE MODAL OPCOES ENDPOINTS ACOES ARQUIVOS */
+.option-three-points button {
+  background-color: transparent !important;
+
+  width: auto !important;
+  height: 30px !important;
+
+  border: none !important;
+
+  cursor: pointer;
+
+  padding: 0 !important;
+}
+
+/* CONFIGURACAO MODAL SELECT OPCOES */
+.modal-ajuste-select {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  height: auto;
+}
+
+.modal-find-baixar-files {
+  position: fixed !important;
+  //position: absolute !important;
+  //margin-top: 10%;
+  margin-top: 2%; // DISTANCIA DO MODAL EM RELACAO AO TOP
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #000;
+  max-width: 48%;
+  height: 46%;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+  border: solid 2px #d9d9d9;
+  background-color: #ffffff;
+  z-index: 1250;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #187fb4;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 3% 0%;
+  }
+  p {
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #656565;
+  }
+  input {
+    width: 15px;
+    height: 15px;
+  }
+  .divider-modal {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 0.5px #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+  }
+  .opcoes {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      padding: 1% 3%;
+      background-color: #055c9d;
+      border: 1px solid #d2d2d2;
+      border-radius: 8px;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 5%;
+    }
+
+    button {
+      padding: 1% 3%;
+      background-color: #bc1515;
+      border: 1px solid #d2d2d2;
+      border-radius: 8px;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      cursor: pointer;
+      margin-left: 5%;
+    }
+  }
+}
+
+.tratativa-dado {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tratativa-dado h1 {
+  margin-top: 0% !important;
+}
+
+.tratativa-dado h1 .button-close-modal {
+  position: absolute;
+  margin-left: 7%;
+  cursor: pointer;
+}
+
+.tratativa-dado .transparencia {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  width: 72%;
+  height: auto;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #656565;
+}
+
+.tratativa-dado .transparencia textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  width: 640px;
+  max-width: 640px;
+  height: 65px;
+  max-height: 65px;
+  margin: 0 0 0 25px;
+  border-radius: 6px;
+  border: solid 1px#d2d2d2;
+  background-color: #f8f8f8;
+  color: #656565;
+  padding-left: 10px;
+  outline: none;
+  resize: none;
+}
+
+.tratativa-dado .transparencia select {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  width: 640px;
+  height: 45px;
+  margin: 0 0 0 25px;
+  border-radius: 6px;
+  border: solid 1px#d2d2d2;
+  background-color: #f8f8f8;
+  color: #656565;
+  padding-left: 10px;
+  outline: none;
+}
+
+.tratativa-dado .enviar-tratativa {
+  font-family: "Roboto", sans-serif;
+  height: 52px;
+  margin: 20px;
+  margin-left: 60%;
+  padding: 15px 36px 17px 31px;
+  border-radius: 6px;
+  border: solid 1px #055c9d;
+  background-color: #187fb4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal-find-visualizar-files {
+  position: fixed !important;
+  //position: absolute !important;
+  //margin-top: 10%;
+  margin-top: -9.2%; // DISTANCIA DO MODAL EM RELACAO AO TOP
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #000;
+  max-width: 98%;
+  height: 96%;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+  border: solid 2px #d9d9d9;
+  background-color: #ffffff;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+
+  .botao-fechar {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    button {
+      border-radius: 0px 5px 0px 0px;
+      background-color: #055c9d;
+      color: #f1f1f1;
+    }
+  }
+
+  embed {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  
+  }
+
+  p {
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #656565;
+  }
+  input {
+    width: 15px;
+    height: 15px;
+  }
+  .divider-modal {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 0.5px #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+  }
+  .opcoes {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      padding: 1% 3%;
+      background-color: #055c9d;
+      border: 1px solid #d2d2d2;
+      border-radius: 8px;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 5%;
+    }
+
+    button {
+      padding: 1% 3%;
+      background-color: #bc1515;
+      border: 1px solid #d2d2d2;
+      border-radius: 8px;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      cursor: pointer;
+      margin-left: 5%;
+    }
+  }
+}
+
+.modal-label{
+  margin-bottom: 10px;
+
+  p{
+    font-size: 14pt;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    margin-bottom: 4px;
+  }
+
+  select, input{
+    font-size: 14pt;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    width: 250px;
+    height: auto;
+  }
+
+
+}
+
+.modal-button {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.modal-radio{
+
+  p{
+    font-size: 14pt;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    width: 250px;
+    height: auto;
+  }
+
+  label{
+    font-size: 14pt;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    margin: 8px;
+
+  }
+}
+
+

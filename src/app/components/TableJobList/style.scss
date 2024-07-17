@@ -1,0 +1,101 @@
+.container-tableMachine {
+}
+.tableMachine {
+  border-collapse: collapse;
+  width: 100%;
+  tr {
+    height: 55px;
+    border: none;
+    padding: 0;
+    background-color: #f3f3f3;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #656565;
+    text-transform: uppercase;
+  }
+
+  td {
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+    height: 69px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: left;
+    color: #656565;
+    text-transform: capitalize;
+  }
+}
+
+.button-view-data {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border-radius: 6px;
+  border: solid 1px #0e86d4;
+  background-color: #0e86d4;
+  padding: 6px 13px 8px 10px;
+}
+
+.button-view-machine {
+  border-radius: 4px;
+  height: 36px;
+  background-color: #055c9d;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+
+  svg path {
+    stroke: #fff;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+  }
+}
+
+.button-status-error {
+  padding: 2px 5px 4px;
+  border-radius: 6px;
+  background-color: #bc1515;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 35px;
+  border: none;
+  outline: none;
+}

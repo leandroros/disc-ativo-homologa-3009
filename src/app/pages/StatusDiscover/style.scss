@@ -1,0 +1,107 @@
+
+.card-status {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: "Roboto", sans-serif;
+    h1 {
+        color: #187fb4;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+}
+
+.div-recent-files {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.card-title-status {
+    margin-bottom: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #187fb4;
+}
+
+.div-extensions {
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 10px;
+
+    h1 {
+        margin: 0;
+        margin-bottom: 10px;
+        color: #187fb4;
+        font-size: 22px;
+    }
+}
+
+.div-tables-top {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 10px;
+
+    table > tr > th {
+        color: #707070;
+    }
+}
+
+.div-content-status {
+    width: 330px;
+    text-align: left;
+    margin: 10px;
+    margin-top: 0;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+    padding: 30px;
+    padding-top: 0px;
+
+    span {
+        font-weight: bold;
+        color: #187fb4;
+    }
+
+    h2 {
+        color: #187fb4;
+        font-size: 22px;
+        margin-left: 20px;
+        text-align: center !important;
+    }
+}
+
+.div-content-right {
+    display: none;
+    text-align: left;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.number-table {
+    font-weight: bold;
+    color: #187fb4;
+    padding-top: 5px;
+}

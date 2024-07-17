@@ -1,0 +1,109 @@
+.button-save {
+  width: 208px;
+  height: 39px;
+  margin: 16px 121px 0 114px;
+  padding: 7px 72px 8px;
+  border-radius: 6px;
+  background-color: #00a8e8;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: solid 1px #0466c8;
+}
+
+.container-checkbox {
+  width: 500px;
+  input {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.input-extension {
+  width: 130px;
+
+  input {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.label-config {
+  display: inline-flex;
+  width: 210px;
+}
+
+.container-tooltip {
+  margin-top: -10px;
+  margin-left: 5px;
+}
+
+.back-button {
+  background-color: #00a8e8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  height: 30px;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  align-items: center;
+  svg {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.item-modal {
+  margin: 0 0 0 7px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #656565;
+}
+
+.redimencionamneto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-login {
+  input {
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #3d3d3d;
+    height: 55px;
+    width: 540px;
+    margin-bottom: 50px;
+  }
+  input::placeholder {
+    display: none;
+    opacity: 0.42;
+    font-size: 22px;
+
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+  }
+  svg {
+    margin-right: 24px;
+  }
+}

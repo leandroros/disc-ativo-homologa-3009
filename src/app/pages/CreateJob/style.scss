@@ -1,0 +1,205 @@
+.modal-createjob {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #000;
+  max-width: fit-content;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+  border: solid 2px #d9d9d9;
+  background-color: #ffffff;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a8e8;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  p {
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #656565;
+  }
+  input {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.modal-extensions {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #000;
+  max-width: 400px;
+  border-radius: 33px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+  border: solid 2px #d9d9d9;
+  background-color: #ffffff;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #187fb4;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  p {
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #656565;
+  }
+  input {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.button-close-modal {
+  background-color: #fff;
+  border: none;
+  color: #00a8e8;
+  cursor: pointer;
+}
+
+.div-checkbox-modal-extensions {
+  cursor: pointer;
+  margin-bottom: 38px;
+  display: flex;
+  justify-content: flex-start;
+  width: 140px;
+}
+
+.div-checkbox-modal {
+  cursor: pointer;
+  margin-bottom: 38px;
+  display: flex;
+  justify-content: flex-start;
+  width: 250px;
+}
+
+.button-save-modalcriarJob {
+  width: 208px;
+  height: 39px;
+  margin: 0 !important;
+  border-radius: 6px;
+  background-color: #00a8e8;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: solid 1px #0466c8;
+  cursor: pointer;
+}
+
+.container-checkbox {
+  width: 500px;
+  input {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.input-extension {
+  width: 130px;
+
+  input {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.p-config {
+  display: inline-flex;
+  width: auto !important;
+}
+
+.label-config {
+  display: inline-flex;
+  width: 210px;
+}
+
+.container-tooltip {
+  margin-top: -10px;
+  margin-left: 5px;
+}
+
+.back-button {
+  background-color: #00a8e8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  height: 30px;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  align-items: center;
+  svg {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.item-modal {
+  margin: 0 0 0 7px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #656565;
+}
