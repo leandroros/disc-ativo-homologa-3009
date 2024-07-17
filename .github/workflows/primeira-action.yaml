@@ -1,0 +1,40 @@
+name: "CI (Atualização discovery homologação): GitAction"
+on:
+    # Triggers the workflow on push or pull request events but only for the "main" branch
+    # Ativa esse fluxo de trabalho para cada push que acontecer apontando para a branch main
+    push:
+      branches: [ "master" ]
+    pull_request:
+      branches: [ "master" ]
+
+    workflow_dispatch:
+
+jobs:
+    vue-teste: 
+      runs-on: ubuntu-latest
+      steps:
+            - uses: actions/checkout@v3
+                      
+            - name: Setup up VUE
+              run: echo tudo certo
+                        
+              
+    deploy-discovery-homologa-3009:
+      runs-on: ubuntu-latest
+      environment:
+              name: discovery-3009
+      needs: vue-teste
+      steps:
+            - name: Repo Checkout
+              uses: actions/checkout@v3
+            - name: Site Deployment
+              uses: easingthemes/ssh-deploy@main
+              with:
+                SSH_PRIVATE_KEY: ${{secrets.KEY_SECRETORIGINAL}}
+                #ARGS: "-rlgoDzvc --delete"
+                SOURCE: "./"
+                REMOTE_HOST: ${{vars.REMOTE_HOST}}
+                REMOTE_USER: ${{vars.REMOTE_USER}}
+                REMOTE_PORT: ${{vars.REMOTE_PORT}}
+                TARGET: ${{vars.TARGET}}
+
